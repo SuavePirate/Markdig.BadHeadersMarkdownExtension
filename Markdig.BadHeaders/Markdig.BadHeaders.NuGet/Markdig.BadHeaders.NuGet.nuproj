@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D567DF05-F866-415E-963C-3D8B64AB6ED9}</ProjectGuid>
     <Description>A Markdig extension for handling malconstructed headers in markdown. This means it can work without having the space after the "#" for headers.</Description>
-    <PackageId>Markdig.BadHeaders</PackageId>
+    <PackageId>MarkdigBadHeaders</PackageId>
     <PackageVersion>2017.12.11</PackageVersion>
     <Authors>SuavePirate</Authors>
     <DevelopmentDependency>false</DevelopmentDependency>

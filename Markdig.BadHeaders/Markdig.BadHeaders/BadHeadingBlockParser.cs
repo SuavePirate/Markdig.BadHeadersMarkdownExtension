@@ -12,11 +12,25 @@ namespace Markdig.BadHeaders
     /// </summary>
     public class BadHeadingBlockParser : HeadingBlockParser
     {
+        /// <summary>
+        /// The head char.
+        /// </summary>
         private readonly char _headChar;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="T:Markdig.BadHeaders.BadHeadingBlockParser"/> class.
+        /// </summary>
+        /// <param name="headChar">Head char.</param>
         public BadHeadingBlockParser(char headChar)
         {
             _headChar = headChar;
         }
+
+        /// <summary>
+        /// Overrides the TryOpen for the heading block parser to ignore the need for spaces
+        /// </summary>
+        /// <returns>The open.</returns>
+        /// <param name="processor">Processor.</param>
         public override BlockState TryOpen(BlockProcessor processor)
         {
             // If we are in a CodeIndent, early exit
