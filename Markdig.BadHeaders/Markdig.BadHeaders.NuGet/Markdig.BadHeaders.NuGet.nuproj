@@ -5,9 +5,9 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D567DF05-F866-415E-963C-3D8B64AB6ED9}</ProjectGuid>
-    <Description>Markdig.BadHeaders</Description>
+    <Description>A Markdig extension for handling malconstructed headers in markdown. This means it can work without having the space after the "#" for headers.</Description>
     <PackageId>Markdig.BadHeaders</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>2017.12.11</PackageVersion>
     <Authors>SuavePirate</Authors>
     <DevelopmentDependency>false</DevelopmentDependency>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -16,6 +16,14 @@
     <UsePartialTypes>false</UsePartialTypes>
     <AssemblyName>Markdig.BadHeaders.NuGet</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Owners>SuavePirate</Owners>
+    <PackageTags>Markdig Headers</PackageTags>
+    <Title>Markdig BadHeadersExtension</Title>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <Summary>A Markdig extension for handling malconstructed headers in markdown. </Summary>
+    <PackageProjectUrl>https://github.com/SuavePirate/Markdig.BadHeadersMarkdownExtension</PackageProjectUrl>
+    <PackageIconUrl>https://i2.wp.com/alexdunndev.files.wordpress.com/2017/12/markdigheader.png</PackageIconUrl>
+    <PackageLicenseUrl>https://github.com/SuavePirate/Markdig.BadHeadersMarkdownExtension/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
