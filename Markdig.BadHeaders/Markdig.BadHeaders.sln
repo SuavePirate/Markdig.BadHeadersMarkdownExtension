@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdig.BadHeaders", "Markdig.BadHeaders\Markdig.BadHeaders.csproj", "{9384EEAC-D19B-4BBB-A4F7-D6F15F7BC532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdig.BadHeaders.Tests", "Markdig.BadHeaders.Tests\Markdig.BadHeaders.Tests.csproj", "{421D268E-AD26-43EB-BBB4-4619C7B52FF3}"
+EndProject
+Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "Markdig.BadHeaders.NuGet", "Markdig.BadHeaders.NuGet\Markdig.BadHeaders.NuGet.nuproj", "{D567DF05-F866-415E-963C-3D8B64AB6ED9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9384EEAC-D19B-4BBB-A4F7-D6F15F7BC532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9384EEAC-D19B-4BBB-A4F7-D6F15F7BC532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9384EEAC-D19B-4BBB-A4F7-D6F15F7BC532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9384EEAC-D19B-4BBB-A4F7-D6F15F7BC532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421D268E-AD26-43EB-BBB4-4619C7B52FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421D268E-AD26-43EB-BBB4-4619C7B52FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421D268E-AD26-43EB-BBB4-4619C7B52FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421D268E-AD26-43EB-BBB4-4619C7B52FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D567DF05-F866-415E-963C-3D8B64AB6ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D567DF05-F866-415E-963C-3D8B64AB6ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D567DF05-F866-415E-963C-3D8B64AB6ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D567DF05-F866-415E-963C-3D8B64AB6ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
